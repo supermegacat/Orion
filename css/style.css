@@ -445,6 +445,14 @@ input {
 }
 
 @media (max-width: 768px) {
+    body {
+        max-width: 100vw;
+    }
+
+    .logo {
+        width: 200px;
+    }
+    
     .content {
         margin-left: 15px;
     }
@@ -487,10 +495,11 @@ input {
         margin-left: 15px;
         margin-right: 15px;
         border-radius: 15px;
+        padding: 15px;
     }
 
     .header-content {
-        margin: 0 15px;
+        padding: 15px;
     }
 
     .form-content {
